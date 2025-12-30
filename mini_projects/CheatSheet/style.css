@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 60px;
+}
+
+
+.content {
+    font-family: "Stack Sans Notch", sans-serif;
+    font-weight: 700;
+}
+
+.container {
+    font-family: "Elms Sans", sans-serif;
+    font-weight: bold;
+    width: 60vw;
+    padding: 32px;
+    margin: auto;
+}
+
+.logo {
+    padding: 0 12px;
+}
+
+.logo img {
+    width: 32px;
+}

@@ -1,0 +1,77 @@
+*{
+    background-color: white;
+    
+}
+
+body {
+    cursor: url('cursor\ \(1\).png'), auto;
+}
+
+
+.top{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 5px;
+    cursor: url('cursor\ \(1\).png'), auto;
+    
+    border: 2px solid #ccc;       
+    border-radius: 8px;           
+    padding: 10px 10px;           
+    background-color: #f9f9f9; 
+    box-shadow: 0 2px 2px ;
+    
+}
+
+.sliding button{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 5px;
+    cursor: url('cursor\ \(1\).png'), auto;
+    
+    
+    border: 1px solid #ccc;       
+    border-radius: 80px;           
+    padding: 10px 10px;           
+    background-color: #f9f9f9; 
+    box-shadow: 0 2px 2px ;
+    padding-top: 10px;
+}
+
+.sliding{
+    padding-top: 10px;
+    border: 2px solid #ccc;       
+    border-radius: 8px;           
+    padding: 5px 5px; 
+    margin-right: 0px;          
+    background-color: #f9f9f9; 
+    box-shadow: 0 2px 2px ;
+    
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;              
+    padding: 10px;
+    width: 90px;
+    margin-top: 20px;
+    
+}
+
+.top input{
+    flex: 1;
+    padding: 8px;
+    font-size: 16px;
+}
+
+.top button{
+    padding: 8px 12px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: url('cursor\ \(1\).png'), auto;
+
+    border: 2px solid #ccc;       
+    border-radius: 8px;           
+    padding: 10px 10px;           
+    background-color: #f9f9f9; 
+    box-shadow: 0 2px 2px ;
+}

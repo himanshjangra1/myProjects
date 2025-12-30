@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color: rgba(7, 2, 2, 0.718);">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube</title>
+    <link rel="icon" href="https://www.youtube.com/s/desktop/1c6b3028/img/favicon.ico" type="image/x-icon">
+</head>
+<body background-color="#000000">
+    <div style="display: flex; justify-content: space-between; " >
+        <a href="https://www.youtube.com">
+       <button style="height: 40px; border-radius: 10px; cursor: pointer;">YouTube<sup>IN</sup><button>
+       </a>
+       <a href="https://www.youtube.com" target="_blank">
+       <form action="#" method="get" style="border-radius: 10px;">
+        <input type="text" placeholder="Search" style="border-radius: 10px;">
+       <button type="submit;cursor: pointer" style=" cursor: pointer;">Search</button>
+       </form>
+       </a>
+       <div style="flex; justify-content: end; padding-left: 10px;">
+       <button style="border-radius: 80px; height: 30px; width: 30px;cursor: pointer">Mic</button>
+       <button style="width: 100px; height: 30px; border-radius: 20px;cursor: pointer">+ Create</button>
+       <button style="border-radius: 80px; height: 30px; width: 30px; cursor: pointer;">N</button>
+       <button style="border-radius: 80px; width: 30px; height: 30px; cursor: pointer;">P</button>
+       </div>
+    </div>
+</body>
+</html>

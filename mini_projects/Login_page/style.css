@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(https://w.wallhaven.cc/full/yq/wallhaven-yqqvv7.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+/* @media (max-width: 369px){
+    body {
+        background-image: url(https://w.wallhaven.cc/full/yq/wallhaven-yqqvv7.jpg);
+        width: auto;
+    }
+} */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vh;
+}
+
+.login {
+    height: 60vh;
+    width: 60vh;
+    /* border: 1px solid white;
+    background-color: white;
+    opacity: 0.3;
+    border-radius: 25px; */
+
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(3px);
+    border-radius: 25%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login:hover {
+    height: 60vh;
+    width: 60vh;
+    /* border: 1px solid white;
+    background-color: white;
+    opacity: 0.3;
+    border-radius: 25px; */
+
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(9px);
+    border-radius: 25%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gmail  {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.gmail input {
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    margin-top: 10px;
+    background-color: azure;
+}
+
+.password  {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.password input {
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    margin-top: 10px;
+    background-color: azure;
+}
+
+.submit {
+    height: 50px;
+    width: 80px;
+    border: none;
+    border-radius: 25px;
+    margin-top: 30px;
+    font-size: 1em;
+}
+
+.submit:hover {
+    border: 1px solid black;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    
+}
+
